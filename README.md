@@ -65,7 +65,7 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue
 Se você gostou deste projeto e gostaria de apoiar seu desenvolvimento, considere fazer uma doação. 
 
 ### Doação via Pix
-- Chave Pix: [(19) 98289-1621]
+- Chave Pix: (19) 98289-1621
 
 ### GitHub Sponsors
 - [Apoie através do GitHub Sponsors](https://github.com/sponsors/fvandrad)
