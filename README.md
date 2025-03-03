@@ -61,13 +61,6 @@ O sistema utiliza o tema Material-UI com cores personalizadas:
 ## 🤝 Contribuição
 Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou fazer um pull request.
 
-## 📝 Licença
-Este projeto está sob a licença MIT.
-
----
-
-⚡ Desenvolvido com [Trae IDE](https://trae.ai) - Uma ferramenta revolucionária para desenvolvimento de software.
-
 ## 💖 Apoie este projeto
 Se você gostou deste projeto e gostaria de apoiar seu desenvolvimento, considere fazer uma doação. 
 
@@ -76,3 +69,12 @@ Se você gostou deste projeto e gostaria de apoiar seu desenvolvimento, consider
 
 ### GitHub Sponsors
 - [Apoie através do GitHub Sponsors](https://github.com/sponsors/fvandrad)
+
+## 📝 Licença
+Este projeto está sob a licença MIT.
+
+---
+
+⚡ Desenvolvido com [Trae IDE](https://trae.ai) - Uma ferramenta revolucionária para desenvolvimento de software.
+
+
