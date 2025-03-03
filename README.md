@@ -67,3 +67,12 @@ Este projeto está sob a licença MIT.
 ---
 
 ⚡ Desenvolvido com [Trae IDE](https://trae.ai) - Uma ferramenta revolucionária para desenvolvimento de software.
+
+## 💖 Apoie este projeto
+Se você gostou deste projeto e gostaria de apoiar seu desenvolvimento, considere fazer uma doação. 
+
+### Doação via Pix
+- Chave Pix: [(19) 98289-1621]
+
+### GitHub Sponsors
+- [Apoie através do GitHub Sponsors](https://github.com/sponsors/fvandrad)
