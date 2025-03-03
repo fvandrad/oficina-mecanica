@@ -1,0 +1,267 @@
+{
+  "clientes": [
+    {
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "telefone": "(11) 98765-4321",
+      "endereco": "Rua das Flores, 123 - São Paulo, SP",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "telefone": "(11) 91234-5678",
+      "endereco": "Avenida Paulista, 1000 - São Paulo, SP"
+    },
+    {
+      "id": "3",
+      "nome": "Carlos Santos",
+      "email": "carlos.santos@email.com",
+      "telefone": "(11) 97777-8888",
+      "endereco": "Rua Augusta, 500 - São Paulo, SP"
+    },
+    {
+      "id": "4",
+      "nome": "Ana Pereira",
+      "email": "ana.pereira@email.com",
+      "telefone": "(11) 96666-7777",
+      "endereco": "Rua Oscar Freire, 200 - São Paulo, SP"
+    },
+    {
+      "id": "5",
+      "nome": "Roberto Almeida",
+      "email": "roberto.almeida@email.com",
+      "telefone": "(11) 95555-4444",
+      "endereco": "Alameda Santos, 45 - São Paulo, SP"
+    }
+  ],
+  "veiculos": [
+    {
+      "clienteId": "1",
+      "marca": "Volkswagen",
+      "modelo": "Gol",
+      "ano": 2018,
+      "placa": "ABC-1234",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "clienteId": "1",
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2020,
+      "placa": "DEF-5678"
+    },
+    {
+      "id": "3",
+      "clienteId": "2",
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2019,
+      "placa": "GHI-9012"
+    },
+    {
+      "id": "4",
+      "clienteId": "3",
+      "marca": "Fiat",
+      "modelo": "Uno",
+      "ano": 2015,
+      "placa": "JKL-3456"
+    },
+    {
+      "id": "5",
+      "clienteId": "4",
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "ano": 2021,
+      "placa": "MNO-7890"
+    },
+    {
+      "id": "6",
+      "clienteId": "5",
+      "marca": "Hyundai",
+      "modelo": "HB20",
+      "ano": 2017,
+      "placa": "PQR-1234"
+    }
+  ],
+  "servicos": [
+    {
+      "id": "1",
+      "nome": "Troca de óleo",
+      "descricao": "Troca de óleo do motor e filtro de óleo",
+      "valor": 120,
+      "tempoEstimado": "1 hora"
+    },
+    {
+      "id": "2",
+      "nome": "Revisão completa",
+      "descricao": "Verificação de todos os sistemas do veículo",
+      "valor": 350,
+      "tempoEstimado": "3 horas"
+    },
+    {
+      "id": "3",
+      "nome": "Alinhamento e balanceamento",
+      "descricao": "Alinhamento das rodas e balanceamento dos pneus",
+      "valor": 180,
+      "tempoEstimado": "1.5 horas"
+    },
+    {
+      "id": "4",
+      "nome": "Troca de pastilhas de freio",
+      "descricao": "Substituição das pastilhas de freio dianteiras e traseiras",
+      "valor": 250,
+      "tempoEstimado": "2 horas"
+    },
+    {
+      "id": "5",
+      "nome": "Troca de correia dentada",
+      "descricao": "Substituição da correia dentada e tensionadores",
+      "valor": 450,
+      "tempoEstimado": "4 horas"
+    }
+  ],
+  "pecas": [
+    {
+      "id": "1",
+      "nome": "Óleo de motor 5W30",
+      "codigo": "OL-5W30",
+      "marca": "Shell",
+      "modeloCompativel": "Diversos",
+      "quantidade": 20,
+      "preco": 35
+    },
+    {
+      "id": "2",
+      "nome": "Filtro de óleo",
+      "codigo": "FO-1234",
+      "marca": "Fram",
+      "modeloCompativel": "Volkswagen, Fiat",
+      "quantidade": 15,
+      "preco": 25
+    },
+    {
+      "id": "3",
+      "nome": "Pastilhas de freio dianteiras",
+      "codigo": "PF-2020",
+      "marca": "Frasle",
+      "modeloCompativel": "Toyota Corolla, Honda Civic",
+      "quantidade": 8,
+      "preco": 120
+    },
+    {
+      "id": "4",
+      "nome": "Correia dentada",
+      "codigo": "CD-3030",
+      "marca": "Gates",
+      "modeloCompativel": "Fiat, Volkswagen",
+      "quantidade": 5,
+      "preco": 85
+    },
+    {
+      "id": "5",
+      "nome": "Filtro de ar",
+      "codigo": "FA-5050",
+      "marca": "Mann",
+      "modeloCompativel": "Diversos",
+      "quantidade": 12,
+      "preco": 40
+    },
+    {
+      "nome": "Vela de ignição",
+      "codigo": "VI-6060",
+      "marca": "NGK",
+      "preco": 30,
+      "quantidade": 24,
+      "id": "6"
+    }
+  ],
+  "ordens_servico": [
+    {
+      "veiculoId": "1",
+      "dataEntrada": "2023-10-15T10:30:00.000Z",
+      "dataSaida": "2023-10-15T14:30:00.000Z",
+      "status": "Concluído",
+      "descricao": "Cliente relatou problemas na frenagem",
+      "servicosIds": [
+        "4"
+      ],
+      "pecasIds": [
+        "3"
+      ],
+      "valorTotal": 370,
+      "id": "1"
+    },
+    {
+      "veiculoId": "3",
+      "dataEntrada": "2023-10-18T09:00:00.000Z",
+      "dataSaida": null,
+      "status": "Em andamento",
+      "descricao": "Revisão programada de 30.000 km",
+      "servicosIds": [
+        "1",
+        "2",
+        "3"
+      ],
+      "pecasIds": [
+        "1",
+        "2",
+        "5"
+      ],
+      "valorTotal": 750,
+      "id": "2"
+    },
+    {
+      "veiculoId": "5",
+      "dataEntrada": "2023-10-20T14:00:00.000Z",
+      "dataSaida": null,
+      "status": "Aguardando aprovação",
+      "descricao": "Barulho ao frear e trepidação no volante",
+      "servicosIds": [
+        "3",
+        "4"
+      ],
+      "pecasIds": [
+        "3"
+      ],
+      "valorTotal": 550,
+      "id": "3"
+    },
+    {
+      "veiculoId": "2",
+      "dataEntrada": "2023-10-10T11:15:00.000Z",
+      "dataSaida": "2023-10-11T16:00:00.000Z",
+      "status": "Entregue",
+      "descricao": "Troca de óleo e filtros",
+      "servicosIds": [
+        "1"
+      ],
+      "pecasIds": [
+        "1",
+        "2",
+        "5"
+      ],
+      "valorTotal": 220,
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "veiculoId": "4",
+      "dataEntrada": "2023-10-21T10:00:00.000Z",
+      "dataSaida": null,
+      "status": "Orçamento aprovado",
+      "descricao": "Troca da correia dentada e revisão geral",
+      "servicosIds": [
+        "2",
+        "5"
+      ],
+      "pecasIds": [
+        "4",
+        "6"
+      ],
+      "valorTotal": 915
+    }
+  ]
+}
