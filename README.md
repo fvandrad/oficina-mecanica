@@ -76,5 +76,3 @@ Este projeto está sob a licença MIT.
 ---
 
 ⚡ Desenvolvido com [Trae IDE](https://trae.ai) - Uma ferramenta revolucionária para desenvolvimento de software.
-
-

@@ -134,13 +134,12 @@
       "preco": 35
     },
     {
-      "id": "2",
       "nome": "Filtro de óleo",
       "codigo": "FO-1234",
       "marca": "Fram",
-      "modeloCompativel": "Volkswagen, Fiat",
+      "preco": 25,
       "quantidade": 15,
-      "preco": 25
+      "id": "2"
     },
     {
       "id": "3",
