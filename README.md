@@ -64,8 +64,13 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue
 ## 💖 Apoie este projeto
 Se você gostou deste projeto e gostaria de apoiar seu desenvolvimento, considere fazer uma doação. 
 
-### GitHub Sponsors
-- [Apoie através do GitHub Sponsors](https://github.com/sponsors/fvandrad)
+- [Apoie através do GitHub Sponsors](https://github.com/sponsors/fvandrad) 
+
+### 🇧🇷 Apoio Direto via Pix
+Se você está no Brasil e quer me pagar um café de forma rápida, pode enviar qualquer valor via Pix:
+* **Chave Pix (Celular):** `1992891621`
+* **Instituição:** NU PAGAMENTOS - IP (Nubank)
+* **Nome do Beneficiário:** Fernando Vanderlei de Andrade
 
 ## 📝 Licença
 Este projeto está sob a licença MIT.
